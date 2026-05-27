@@ -46,7 +46,9 @@ linux-seguranca-cloud/
 
 ### Evidência da estrutura criada
 
-> Adicionar aqui screenshot ou output do terminal
+<img width="564" height="116" alt="image" src="https://github.com/user-attachments/assets/ff5c3fa7-785b-4b78-b1ee-f06af90c2307" />
+<img width="366" height="144" alt="image" src="https://github.com/user-attachments/assets/7903b684-93f1-4370-a52c-5626fe435c49" />
+
 
 Exemplo de comando utilizado:
 
@@ -73,7 +75,13 @@ Durante a atividade foram executados vários comandos para identificação do am
 
 ### Evidência dos comandos
 
-> Adicionar aqui screenshot do terminal com comandos executados
+<img width="643" height="19" alt="image" src="https://github.com/user-attachments/assets/6d6b1454-fdd0-4e7e-8407-a94197a56815" />
+
+<img width="508" height="20" alt="image" src="https://github.com/user-attachments/assets/67c741df-9379-4beb-a4d5-143d9e1d8d92" />
+
+<img width="838" height="271" alt="image" src="https://github.com/user-attachments/assets/3eec84ae-8606-426d-9dc8-2ccd5229507c" />
+
+<img width="665" height="173" alt="image" src="https://github.com/user-attachments/assets/199adf3f-a7ac-46b9-994c-dbd9d9aa3a57" />
 
 ---
 
@@ -124,11 +132,6 @@ O comando `tree` não estava instalado por defeito e foi necessário instalar at
 sudo apt install tree
 ```
 
-### Exemplo 3
-Algumas dificuldades na navegação entre diretórios através do terminal Linux.
-
-> Ajustar esta secção conforme a experiência real
-
 ---
 
 ## Próximos passos
@@ -147,19 +150,23 @@ Para o próximo tópico será necessário:
 
 ## Screenshot do terminal ativo
 
-> Adicionar screenshot aqui
+<img width="564" height="116" alt="image" src="https://github.com/user-attachments/assets/ff5c3fa7-785b-4b78-b1ee-f06af90c2307" />
 
 ---
 
 ## Screenshot da estrutura criada
 
-> Adicionar screenshot aqui
+<img width="366" height="144" alt="image" src="https://github.com/user-attachments/assets/7903b684-93f1-4370-a52c-5626fe435c49" />
 
 ---
 
 ## Screenshot dos comandos executados
 
-> Adicionar screenshot aqui
+<img width="838" height="271" alt="image" src="https://github.com/user-attachments/assets/3eec84ae-8606-426d-9dc8-2ccd5229507c" />
+
+<img width="370" height="163" alt="image" src="https://github.com/user-attachments/assets/9879f252-d4e0-4753-8e51-037f17ab5d2c" />
+
+<img width="1191" height="620" alt="image" src="https://github.com/user-attachments/assets/91eb7bd1-5a95-479a-979b-e165bcef91c7" />
 
 ---
 
@@ -181,7 +188,7 @@ Ubuntu Server 24.04 LTS
 |---|---|
 | CPU | 2 vCPU |
 | RAM | 4 GB |
-| Disco | 25 GB |
+| Disco | 500 GB |
 
 ### Limitações
 
@@ -199,6 +206,6 @@ Pretende-se manter uma organização consistente para facilitar futuras entregas
 
 # Autor
 
-**Nome:** [O teu nome]  
+**Nome:** Dénio Melo.  
 **Curso/Módulo:** Linux, Segurança e Cloud  
 **Data:** Maio 2026
