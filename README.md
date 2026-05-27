@@ -122,10 +122,10 @@ A infraestrutura cloud utiliza recursos distribuídos e escaláveis disponibiliz
 
 ## Dificuldades encontradas
 
-### Exemplo 1
+### Dificuldade 1
 Foram encontradas dificuldades iniciais na configuração da rede da máquina virtual.
 
-### Exemplo 2
+### Dificuldade 2
 O comando `tree` não estava instalado por defeito e foi necessário instalar através do seguinte comando:
 
 ```bash
