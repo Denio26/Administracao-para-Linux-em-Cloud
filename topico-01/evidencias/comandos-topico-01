@@ -1,0 +1,8 @@
+pwd -> mostra o diretorio atual
+ls -la -> lista ficheiros e permissoes
+uname -a -> mostra informacoes do kernel linux
+hostnamectl -> mostra detalhes do sistema
+mkdir -p linux-seguranca-cloud/topico-01/evidencias -> cria estrutura de diretorios
+touch readme.md comandos-topico-01.txt ambiente.md -> cria ficheiros vazios
+tree linux-seguranca-cloud -> apresenta estrutura do projeto
+whoami -> mostra o utilizador final
