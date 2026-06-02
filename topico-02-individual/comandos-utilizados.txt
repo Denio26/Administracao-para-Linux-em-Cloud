@@ -1,0 +1,106 @@
+COMANDOS UTILIZADOS - TÓPICO 02
+Gestão de Utilizadores, Grupos, Permissões e SSH
+
+1. Criar a estrutura da atividade
+
+mkdir topico-02-individual
+Cria o diretório principal da atividade.
+
+cd topico-02-individual
+Acede ao diretório criado.
+
+mkdir evidencias
+Cria a pasta destinada a armazenar evidências (prints e outputs).
+
+touch comandos-utilizados.txt
+Cria o ficheiro para registo dos comandos utilizados.
+
+touch permissoes.md
+Cria o ficheiro para documentação das permissões aplicadas.
+
+touch acesso-remoto.md
+Cria o ficheiro para documentação do acesso remoto por SSH.
+
+--------------------------------------------------
+
+2. Identificação do utilizador e grupos
+
+whoami
+Mostra o utilizador atualmente autenticado no sistema.
+
+id
+Apresenta o UID (User ID), GID (Group ID) e os grupos associados ao utilizador.
+
+groups
+Lista os grupos aos quais o utilizador pertence.
+
+--------------------------------------------------
+
+3. Criação de ficheiros de teste
+
+mkdir teste-permissoes
+Cria uma pasta para realizar testes de permissões.
+
+cd teste-permissoes
+Acede à pasta de testes.
+
+touch publico.txt
+Cria um ficheiro de teste com acesso público de leitura.
+
+touch restrito.txt
+Cria um ficheiro de teste com acesso restrito.
+
+touch script.sh
+Cria um ficheiro de script para testes de execução.
+
+ls -l
+Lista os ficheiros e apresenta as respetivas permissões, proprietário e grupo.
+
+--------------------------------------------------
+
+4. Configuração de permissões
+
+chmod 644 publico.txt
+Define permissões de leitura e escrita para o proprietário e apenas leitura para os restantes utilizadores.
+
+chmod 640 restrito.txt
+Define permissões de leitura e escrita para o proprietário, leitura para o grupo e nenhum acesso para outros utilizadores.
+
+chmod u+x script.sh
+Adiciona permissão de execução ao proprietário do ficheiro.
+
+ls -l
+Verifica as permissões após as alterações.
+
+--------------------------------------------------
+
+5. Execução de script
+
+./script.sh
+Executa o script utilizando as permissões atribuídas.
+
+--------------------------------------------------
+
+6. Verificação do serviço SSH
+
+systemctl status ssh
+Verifica o estado atual do serviço SSH.
+
+hostname -I
+Mostra os endereços IP atribuídos ao sistema.
+
+--------------------------------------------------
+
+7. Comandos auxiliares utilizados
+
+pwd
+Mostra o diretório atual de trabalho.
+
+tree
+Apresenta a estrutura de diretórios em formato de árvore.
+
+nano script.sh
+Edita o conteúdo do ficheiro script.sh.
+
+cat ficheiro
+Mostra o conteúdo de um ficheiro no terminal.
