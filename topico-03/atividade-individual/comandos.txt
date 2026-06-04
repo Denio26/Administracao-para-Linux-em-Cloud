@@ -1,0 +1,22 @@
+mkdir -p topico-03/atividade-individual/site
+mkdir -p topico-03/atividade-individual/evidencias
+touch comandos.txt
+touch publicacao.md
+touch validacao.md
+touch README.md
+
+systemctl status nginx
+sudo apt install nginx -y
+sudo systemctl start nginx
+
+sudo mkdir -p /var/www/html/topico-03-individual
+sudo cp site/* /var/www/html/topico-03-individual/
+
+hostname -I
+
+curl http://localhost/topico-03-individual
+curl http://localhost/topico-03-individual/sobre.html
+
+git add .
+git commit -m "Adding new Directory: topico-03"
+git push
