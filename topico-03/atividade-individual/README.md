@@ -41,7 +41,7 @@ Nenhuma dificuldade significativa.
 
 ## Link do repositório GitHub
 
-(Substituir pelo teu link)
+https://github.com/Denio26/Administracao-para-Linux-em-Cloud/tree/main/
 
 ## Próximos passos
 
