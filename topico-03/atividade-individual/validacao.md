@@ -2,9 +2,10 @@
 
 ## URLs testados
 
-http://localhost/topico-03
-
-http://localhost/topico-03/sobre.html
+http://localhost/topico-03-individual/
+https://intro-usc-thread-nasa.trycloudflare.com/topico-03-individual/
+http://localhost/topico-03/sobre.html/
+https://intro-usc-thread-nasa.trycloudflare.com/topico-03-individual/sobre.html/
 
 ## Resultado dos testes
 
